@@ -1,0 +1,62 @@
+l=[]
+d={}
+t=()
+l.append(25)
+print(l)
+l.append(35)
+print(l)
+l[0]=15
+print(l)
+l.insert(0,45)
+print(l)
+print(len(l))
+a,b,c=l
+print(a)
+print(b)
+print(c)
+l.remove(45)
+print(l)
+print(l.index(15))
+l=[15,96,84,35,85,66,28]
+l.sort()
+print(l)
+a=["Aman","prakash","Saurav","abhishek","ankit","Jaspreet","Puneet"]
+a.sort()
+print(a)
+a.sort(key=str.lower)
+print(a)
+l.sort(reverse=True)
+print(l)
+l.extend(["hello","aman"])
+print(l)
+b=[a,l]
+print(b)
+print(l[2])
+print(b[0][2])
+print(b[1][2])
+ls=l[:3]
+print(ls)
+s="hello"
+print(s[:2])
+le=len(s)
+print(s[1:le-1])
+print(l[3:])
+print(l[4:7])
+print(l[::-1])
+print(list("hello"))
+print(list("hello").count("l"))
+print("ankit" in a)
+print("ankit" in b)
+for i in l:
+    print(i)
+for i in range(len(l)):
+    print(i)
+del l[2]
+print(l)
+l.pop()
+print(l)
+l.reverse()
+print(l)
+print(list(range(10)))
+l.clear()
+print(l)
